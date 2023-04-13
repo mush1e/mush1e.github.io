@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style/style.css" rel="stylesheet">
+    <script type=”text/javascript” src=”script.js”></script>
+    <title>Info</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar center">
+            <ul class="navlist">
+                <li><a class="navbar-brand" href="./reviews.html">Reviews</a></li>
+                <li><a class="navbar-brand" href="./info.html">Info</a></li>
+                <li><a class="navbar-brand" href="./about.html">About</a></li>
+                <li><a class="navbar-brand" href="./index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+      <h1>Monopoly: Player Reviews</h1>
+      <div id="review-container">
+
+      </div>
+      <form id="review-form">
+        <h2>Add a Review</h2>
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" required>
+        </div>
+        <div>
+          <label for="date">Date:</label>
+          <input type="date" id="date" required>
+        </div>
+        <div>
+          <label for="rating">Rating:</label>
+          <select id="rating" required>
+            <option value="">Select a rating</option>
+            <option value="1">1 star</option>
+            <option value="2">2 stars</option>
+            <option value="3">3 stars</option>
+            <option value="4">4 stars</option>
+            <option value="5">5 stars</option>
+          </select>
+        </div>
+        <div>
+          <label for="review">Review:</label>
+          <textarea id="review" rows="4" required></textarea>
+        </div>
+        <button type="submit">Create</button>
+      </form>
+    </main>
+        
+    <footer>
+        <small>&copy; Mustafa Siddiqui 2023</small>
+    </footer>
+    <script src="./js/data.js"></script>
+    <script src="./js/script.js"></script>
+</body>            
+
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style/style.css" rel="stylesheet">
+
+    <title>Monoply</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar center">
+            <ul class="navlist">
+                <li><a class="navbar-brand" href="./reviews.html">Reviews</a></li>
+                <li><a class="navbar-brand" href="./info.html">Info</a></li>
+                <li><a class="navbar-brand" href="./about.html">About</a></li>
+                <li><a class="navbar-brand" href="./index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <h1>Monopoly: The Classic Board Game</h1>
+            <p>Monopoly is a classic board game that has been enjoyed by millions of people around the world for over 85 years (<a href="https://www.hasbro.com/en-us/brands/monopoly" target="_blank">Hasbro, n.d.</a>). The game was first published by Parker Brothers in 1935, and has since become a cultural phenomenon.</p>
+            <p>According to Hasbro (n.d.), Monopoly is a game of strategy and luck that involves buying, selling, and trading properties in order to become the wealthiest player. The game is played with a board, dice, and various playing pieces, and can be enjoyed by two to eight players.</p>
+            <blockquote>
+                <p>One of the most iconic aspects of Monopoly is the game board itself, which features a series of properties, railroads, and utilities. Each of these spaces has a unique set of rules and can either help or hinder the players' progress towards victory.</p>
+            </blockquote>
+            <p>In addition to the main board, Monopoly also features a variety of cards and pieces that players can use to their advantage. These include Chance and Community Chest cards, which offer rewards or penalties based on the luck of the draw, and player tokens such as the classic top hat, car, and dog.</p>
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/UeZI8CdcQbo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <p>Overall, Monopoly remains one of the most beloved and enduring board games of all time. As Hasbro (n.d.) notes, "the game has become a symbol of capitalism and the American dream, and has been referenced in popular culture countless times."</p>
+        </div>
+
+        <div class="newsletter">
+            <h1>Join our Newsletter</h1>
+            <form id="newsletter-form" action="https://httpbin.org/post" method="POST">
+                <label for="email-input">Email:</label>
+                <input type="email" id="email-input" name="email" required>
+                <input type="hidden" name="name" value="Mustafa Siddiqui">
+                <button type="submit" id="join-button">Join</button>
+              </form>
+        </div>
+    </main>
+    <footer>
+        <small>&copy; Mustafa Siddiqui 2023</small>
+    </footer>
+
+    <script src="./js/email.js"></script>
+
+</body>
+</html>
